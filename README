@@ -1,0 +1,42 @@
+Usage:
+
+1. cd into "cl" directory
+2. in one window run "cl.sh"
+3. in another window (I use tmux), run "browse.sh" to view hits on your
+   watchlist.txt keywords (I used "less" so I could use "q" to quickly view
+   posts -- once viewed, they're tagged as read and won't be seen under browse
+   again)
+
+
+Notes:
+
+1.  All .txt files can have white space and hash (#) style comments which are
+    ignored.
+
+2.  Don't reduce the delays used, as it's rude to the craigslist server and
+    it only takes maybe 24 hours to scan the 6 tech-related categories
+    country-wide.  The delays also reduce the chances of being flagged and
+    banned as a bot.
+
+3.  If you can, keep the "rl" (or some other line shuffling command) in the 
+    pipelines, as it may reduce the likelihood of being flagged as a bot by
+    avoiding sequential page hits.
+
+4.  See comments at head of main "cl.sh" file for a few more details.
+
+
+Possible future features:
+
+1.  Each cycle, do a "find" to delete posts older than so many days (I've had
+    several hundred thousand files build up after a year of almost continuous
+    use.
+
+2.  Use the actual craiglist seach functionality to get fewer posts to d/l
+
+
+Bug (or lack of much-needed feature):
+
+1.  The grepping of watchlist.txt is strictly of the logical OR variety.  I
+    have been too lazy to create the loop necessary to do an AND search, which
+    would greatly help accuracy.  Simply using "Telecommuting is ok" will net
+    both web, programming, and sysadmin jobs, which creates a lot of noise.

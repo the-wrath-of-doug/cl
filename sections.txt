@@ -1,0 +1,17 @@
+# computer gigs
+cpg
+
+# internet engineers
+eng
+
+# systems / network
+sad
+
+# software /qa / dba
+sof
+
+# technical support jobs
+tch
+
+# web / info design
+web

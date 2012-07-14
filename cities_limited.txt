@@ -1,0 +1,48 @@
+# Arizona
+flagstaff
+mohave
+phoenix
+prescott
+showlow
+sierravista
+tuscon
+yuma
+
+# Colorado
+boulder
+cosprings
+denver
+eastco
+fortcollins
+rockies
+pueblo
+westslope
+
+# Idaho
+boise
+eastidaho
+lewiston
+pullman
+spokane
+twinfalls
+
+# Nevada
+elko
+lasvegas
+reno
+
+# New Mexico
+albuquerque
+clovis
+farmington
+lascruces
+roswell
+santafe
+
+# Utah
+logan
+ogden
+provo
+saltlakecity
+stgeorge 
+
