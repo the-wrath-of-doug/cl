@@ -20,7 +20,8 @@ Notes:
 
 3.  If you can, keep the "rl" (or some other line shuffling command) in the 
     pipelines, as it may reduce the likelihood of being flagged as a bot by
-    avoiding sequential page hits.
+    avoiding sequential page hits.  (EDIT: Seems that "shuf" from the FSF
+    coreutils is already presnt on most linux distros.)
 
 4.  See comments at head of main "cl.sh" file for a few more details.
 
